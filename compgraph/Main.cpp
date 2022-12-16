@@ -11,12 +11,6 @@
 #include "filesystem.h"
 #include "Cylinder.h"
 
-//I wrote the code with learnOpenGl tutorials so if it looks familiar, it's because I followed
-//the instructions in the book :)
-//it is also set up according to those instructions, so if the code doesn't run on your machine
-//please let me know :)
-//also I couldn't make the camera orbit around with mouse input, I have a commented out code
-//which constantly orbits around it with no mouse input
 void framebuffer_size_callback(GLFWwindow* window, int width, int height);
 void mouse_callback(GLFWwindow* window, double xpos, double ypos);
 void scroll_callback(GLFWwindow* window, double xoffset, double yoffset);
